@@ -12,9 +12,12 @@ def print_report(team_name, **info):
 
 analyz1=analyze_scores(8, 10, 7, 9)
 print(analyz1)
+
 analyz2=analyze_scores(5,5)
 print(analyz2)
+
 analyz3=analyze_scores()
 print(analyz3)
+
 team={"coach":"Влад","city":"Минск"}
 print_report("Комета",**team)
